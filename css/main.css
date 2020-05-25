@@ -1,0 +1,56 @@
+/* Font */
+@font-face {
+  font-family: michellaGarden;
+  src: url("../fonts/michella_garden/michella_garden.otf") format("opentype");
+}
+
+/* style list */
+/* li {
+  border: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #e8e4d8;
+  display: inline-block;
+  box-sizing: border-box;
+} */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: inline;
+}
+
+div.column
+{
+  display: flex;
+}
+/* Style plantTag */
+.plantTag{
+  width: 140px;
+  text-align: center;
+}
+
+.plantName{
+  font-family: michellaGarden;
+  font-size: 30px;
+  height: 80px;
+}
+
+li {
+  width: 33%;
+  min-width: 280px;
+  display: inline-block;
+}
+
+.column {
+  position: relative;
+  width: 100%;
+  border: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  margin: 2px;
+  padding: 5px;
+  background-color: #e8e4d8;
+  box-sizing: border-box;
+}
